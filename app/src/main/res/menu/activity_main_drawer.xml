@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_biodata"
+            android:icon="@drawable/biodata"
+            android:title="Biodata" />
+        <item
+            android:id="@+id/nav_foto"
+            android:icon="@drawable/foto"
+            android:title="Foto" />
+        <item
+            android:id="@+id/nav_pendidikan"
+            android:icon="@drawable/pendidikan"
+            android:title="Riwayat Pendidikan" />
+
+    </group>
+
+    <item android:title="Sosial Media">
+        <menu>
+            <item
+                android:id="@+id/facebook"
+                android:icon="@drawable/ic_facebook"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/instagram"
+                android:icon="@drawable/ic_instagram"
+                android:title="Instagram" />
+            <item
+                android:id="@+id/whatsapp"
+                android:icon="@drawable/ic_whatsapp"
+                android:title="Whatsapp" />
+        </menu>
+    </item>
+
+</menu>
